@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="2"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_cpu"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/rock"
+        android:="@+id/iv_cpu"/>
+
+    <ImageView
+        android:id="@+id/iv_me"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/rock"/>
+</LinearLayout>
